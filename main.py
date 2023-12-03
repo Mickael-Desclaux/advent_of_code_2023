@@ -1,1 +1,4 @@
-text: str = '1abc2'
+from Calibrator import *
+
+total = calibrator()
+print(total)
