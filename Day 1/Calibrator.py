@@ -3,7 +3,7 @@ from typing import List
 
 def calibrator():
     puzzle = []
-    with open("data.txt", 'r') as file:
+    with open("Day 1/data.txt", 'r') as file:
         for line in file:
             puzzle.append(line.strip())
 
