@@ -1,4 +1,11 @@
+from pprint import pprint
+
 from Calibrator import *
 
-total = calibrator()
-print(total)
+
+result = calibrator()
+
+print(len(result))
+
+# total = calibrator()
+# print(total)
